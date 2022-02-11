@@ -1,0 +1,8 @@
+wind57:
+  retry:
+    splitBy: 2
+    maxAttempts: 10
+    backOff:
+      delay: 1000
+      maxDelay: 10000
+      multiplier: 1.5
